@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, ifr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: teal;
+ 
+ }
+ 
+ .grid-item{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 3px solid ;
+ }
+
+ .item1{
+    grid-area: 1/1/2/6;
+ }
+ 
+ .item2{
+    grid-area: 2/1/4/2;
+ }
+ 
+ .item3{
+    grid-area: 2/2/3/4;
+ }
+ 
+ .item4{
+    grid-area: 2/4/3/6;
+ }
+ 
+ .item5{
+    grid-area: 3/2/4/6 ;
+ }
+ 
+ 
+ 
+ 
